@@ -14,7 +14,6 @@ public class BankIT {
 	
 	@Before
     public void setUp() {
-		
 		// this is a simple abstraction from what would be a database connection
 		// testing several systems with one simple test
 		
@@ -30,19 +29,19 @@ public class BankIT {
 	@Test
 	public void testDepositAmount() {
 		// use the functions depositAccount(Client,float) & getClientByName(String) from Bank 
-		assertTrue(true);
+		assertTrue(false);
 	}
 	
 	@Test	
 	public void testWithdrawAmount() {	
 		// use the functions depositAccount(Client), getClientByName(String) & withdrawClientAccount(Client) from Bank
-		assertTrue(true);
+		assertTrue(false);
 	}
 	
 	@Test
 	public void testTransactionBetweenUsers() {
 		// use the functions transfer(Client,Client,float) & getClientByName(String) from Bank
-		assertTrue(true);
+		assertTrue(false);
 	}
 
 }

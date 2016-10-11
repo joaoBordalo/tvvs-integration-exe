@@ -14,7 +14,6 @@ public class Client {
 	}
 	
 	public Account getAccount() {
-		//travis
 		return this.account;
 	}
 	
